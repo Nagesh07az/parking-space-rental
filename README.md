@@ -40,7 +40,7 @@ Mobile and web interfaces for easy booking and management.
 
 STMA9B1J6AGFZGA44NPVWN84RJD3RDPPJ9ZS9Y5A.parking-space-rental
 
-(Replace SPXXXXXX with your actual Stacks address after deployment.)
+
 <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/4748adba-ca7e-4e9a-ab28-9fe5967b3dac" />
 
 
