@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: parking-space-rental
+            expected-sender: STMA9B1J6AGFZGA44NPVWN84RJD3RDPPJ9ZS9Y5A
+            cost: 13840
+            path: "contracts\\parking-space-rental.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
